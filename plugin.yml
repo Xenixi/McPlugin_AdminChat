@@ -1,0 +1,14 @@
+name: AdminChat
+version: 1.0
+main: com.xenixi.conquermc.plugins.adminchat.AChat
+author: Kobe McManus
+
+commands:
+    ac:
+        description: Send a message in admin chat
+        aliases: [ao,a]
+        default: false
+        permission: adminchat.access
+permissions:
+    adminchat.access:
+      description: Allows a staff member to access adminchat.
